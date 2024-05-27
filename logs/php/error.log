@@ -1,0 +1,221 @@
+[27-May-2024 11:33:07 UTC] PHP Warning:  require_once(C:\Users\flo16\Local Sites\nathalie-mota\app\public/wp-content/themes/Nathalie-Mota/inc/helpers.php): Failed to open stream: No such file or directory in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php on line 182
+[27-May-2024 11:33:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\flo16\Local Sites\nathalie-mota\app\public/wp-content/themes/Nathalie-Mota/inc/helpers.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php:182
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php(48): OCEANWP_Theme_Class::oceanwp_has_setup()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php(1157): OCEANWP_Theme_Class->__construct()
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-settings.php(663): include('C:\\Users\\flo16\\...')
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-config.php(103): require_once('C:\\Users\\flo16\\...')
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-load.php(50): require_once('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(13): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php on line 182
+[27-May-2024 11:33:07 UTC] PHP Warning:  require_once(C:\Users\flo16\Local Sites\nathalie-mota\app\public/wp-content/themes/Nathalie-Mota/inc/helpers.php): Failed to open stream: No such file or directory in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php on line 182
+[27-May-2024 11:33:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\flo16\Local Sites\nathalie-mota\app\public/wp-content/themes/Nathalie-Mota/inc/helpers.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php:182
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php(48): OCEANWP_Theme_Class::oceanwp_has_setup()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php(1157): OCEANWP_Theme_Class->__construct()
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-settings.php(663): include('C:\\Users\\flo16\\...')
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-config.php(103): require_once('C:\\Users\\flo16\\...')
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-load.php(50): require_once('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(13): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php on line 182
+[27-May-2024 11:33:21 UTC] PHP Warning:  require_once(C:\Users\flo16\Local Sites\nathalie-mota\app\public/wp-content/themes/Nathalie-Mota/inc/helpers.php): Failed to open stream: No such file or directory in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php on line 182
+[27-May-2024 11:33:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\flo16\Local Sites\nathalie-mota\app\public/wp-content/themes/Nathalie-Mota/inc/helpers.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php:182
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php(48): OCEANWP_Theme_Class::oceanwp_has_setup()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php(1157): OCEANWP_Theme_Class->__construct()
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-settings.php(663): include('C:\\Users\\flo16\\...')
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-config.php(103): require_once('C:\\Users\\flo16\\...')
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-load.php(50): require_once('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\flo16\\...')
+#6 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php on line 182
+[27-May-2024 11:33:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[27-May-2024 11:33:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[27-May-2024 11:34:22 UTC] PHP Warning:  require_once(C:\Users\flo16\Local Sites\nathalie-mota\app\public/wp-content/themes/Nathalie-Mota/inc/helpers.php): Failed to open stream: No such file or directory in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php on line 182
+[27-May-2024 11:34:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\flo16\Local Sites\nathalie-mota\app\public/wp-content/themes/Nathalie-Mota/inc/helpers.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php:182
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php(48): OCEANWP_Theme_Class::oceanwp_has_setup()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php(1157): OCEANWP_Theme_Class->__construct()
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-settings.php(663): include('C:\\Users\\flo16\\...')
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-config.php(103): require_once('C:\\Users\\flo16\\...')
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-load.php(50): require_once('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\flo16\\...')
+#6 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\functions.php on line 182
+[27-May-2024 11:36:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_html_classes() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php:10
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(745): load_template('C:\\Users\\flo16\\...', true, Array)
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\page.php(12): get_header()
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php on line 10
+[27-May-2024 11:37:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_html_classes() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php:10
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(745): load_template('C:\\Users\\flo16\\...', true, Array)
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\page.php(12): get_header()
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php on line 10
+[27-May-2024 11:37:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_html_classes() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php:10
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(745): load_template('C:\\Users\\flo16\\...', true, Array)
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\page.php(12): get_header()
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php on line 10
+[27-May-2024 11:37:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_html_classes() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php:10
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(745): load_template('C:\\Users\\flo16\\...', true, Array)
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\page.php(12): get_header()
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php on line 10
+[27-May-2024 11:37:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_html_classes() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php:10
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(745): load_template('C:\\Users\\flo16\\...', true, Array)
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\page.php(12): get_header()
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php on line 10
+[27-May-2024 11:37:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_html_classes() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php:10
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(745): load_template('C:\\Users\\flo16\\...', true, Array)
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\page.php(12): get_header()
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php on line 10
+[27-May-2024 11:40:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_html_classes() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php:10
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(745): load_template('C:\\Users\\flo16\\...', true, Array)
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\page.php(12): get_header()
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php on line 10
+[27-May-2024 11:42:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_html_classes() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php:10
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(745): load_template('C:\\Users\\flo16\\...', true, Array)
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\page.php(12): get_header()
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\header.php on line 10
+[27-May-2024 11:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_menu_search_style() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\footer.php:44
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(745): load_template('C:\\Users\\flo16\\...', true, Array)
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\page.php(57): get_footer()
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\footer.php on line 44
+[27-May-2024 11:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_error_page_template_content() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#3 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php on line 15
+[27-May-2024 11:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_error_page_template_content() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#3 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php on line 15
+[27-May-2024 11:49:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_menu_search_style() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\footer.php:44
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template.php(745): load_template('C:\\Users\\flo16\\...', true, Array)
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\page.php(57): get_footer()
+#4 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#6 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#7 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\footer.php on line 44
+[27-May-2024 11:49:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_error_page_template_content() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#3 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php on line 15
+[27-May-2024 11:49:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_error_page_template_content() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#3 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php on line 15
+[27-May-2024 11:50:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_error_page_template_content() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#3 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php on line 15
+[27-May-2024 11:50:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_error_page_template_content() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#3 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php on line 15
+[27-May-2024 11:52:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_error_page_template_content() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#3 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php on line 15
+[27-May-2024 11:52:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_error_page_template_content() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#3 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php on line 15
+[27-May-2024 11:53:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_error_page_template_content() in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#2 C:\Users\flo16\Local Sites\nathalie-mota\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#3 {main}
+  thrown in C:\Users\flo16\Local Sites\nathalie-mota\app\public\wp-content\themes\Nathalie-Mota\404.php on line 15
