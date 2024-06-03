@@ -1,37 +1,16 @@
-<style>
-	footer {
-		width: 100%;
-		height: auto;
-		padding-top: 2%;
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
+<?php wp_footer(); ?>
 
-	footer a {
-		font-weight: 400;
-		font-size: 1rem;
-		align-self: center;
-		padding-right: 6%;
-		color: inherit;
-		text-decoration: none;
-		margin: 5px;
-		padding-top: 1%;
-	}
-
-	.line {
-		height: 2px;
-		width: 100%;
-		background-color: black;
-	}
-</style>
 <footer>
-	<div class="line"></div>
-	<a href="/contact" class="contact-btn">MENTIONS LÉGALES</a>
-	<a href="/contact" class="contact-btn">VIE PRIVÉ</a>
-	<a href="/contact" class="contact-btn">TOUS DROITS RÉSERVÉS</a>
-</footer>
-</div>
-</body>
-
-</html>
+	<nav class="footer-nav">
+		<?php
+		wp_nav_menu(array(
+			'theme_location' => 'footer-menu',
+			'container' => false,
+			'menu_class' => 'footer-menu',
+		));
+		?>
+	</nav>
+	<!--chargement du template modale.php  -->
+	<?php get_template_part('template-parts/modale-contact'); ?>
+	<!--chargement du template lightbox.php  -->
+	<?php get_template_part('template-parts/lightbox'); ?>

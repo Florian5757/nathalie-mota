@@ -1,57 +1,25 @@
-<?php
+<?php get_header(); ?>
 
-/**
- * The template for displaying all pages.
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages and that other
- * 'pages' on your WordPress site will use a different template.
- *
- * @package OceanWP WordPress theme
- */
 
-get_header(); ?>
+<main id="main" class="site-main" role="main">
 
-<?php do_action('ocean_before_content_wrap'); ?>
 
-<div id="content-wrap" class="container clr">
+    <!-- Boucle WordPress pour afficher le contenu de la page -->
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-	<?php do_action('ocean_before_primary'); ?>
+            <h1><?php get_the_title(); ?></h1>
+            <section class="container">
+                <?php the_content(); ?>
 
-	<div id="primary" class="content-area clr">
 
-		<?php do_action('ocean_before_content'); ?>
+            </section>
 
-		<div id="content" class="site-content clr">
+    <?php endwhile;
+    endif; ?>
 
-			<?php do_action('ocean_before_content_inner'); ?>
 
-			<?php
-			// Elementor `single` location.
-			if (!function_exists('elementor_theme_do_location') || !elementor_theme_do_location('single')) {
 
-				// Start loop.
-				while (have_posts()) :
-					the_post();
+</main>
 
-					get_template_part('partials/page/layout');
-
-				endwhile;
-			}
-			?>
-
-			<?php do_action('ocean_after_content_inner'); ?>
-
-		</div><!-- #content -->
-
-		<?php do_action('ocean_after_content'); ?>
-
-	</div><!-- #primary -->
-
-	<?php do_action('ocean_after_primary'); ?>
-
-</div><!-- #content-wrap -->
-
-<?php do_action('ocean_after_content_wrap'); ?>
 
 <?php get_footer(); ?>
