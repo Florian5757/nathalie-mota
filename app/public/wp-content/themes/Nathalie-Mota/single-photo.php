@@ -57,7 +57,7 @@ $nextThumbnailURL = $nextPost ? get_the_post_thumbnail_url($nextPost->ID, 'thumb
   <!-- Section de contact et navigation entre les photos -->
   <div class="contenairContact">
     <div class="contact">
-      <p class="interesser">Cette photo vous intéresse ?</p>
+      <p class="interessé">Cette photo vous intéresse ?</p>
       <!-- Bouton de contact avec la référence comme attribut de données -->
       <button id="boutonContact" data-reference="<?php echo esc_attr($reference); ?>">Contact</button>
     </div>

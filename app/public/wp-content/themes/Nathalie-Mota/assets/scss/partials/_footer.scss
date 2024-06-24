@@ -5,7 +5,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   font-size: 16px;
   font-family: "space_monoregular", monospace;
   border-top: 1px solid black;
@@ -41,7 +41,7 @@ footer {
 }
 
 /* Media query pour les écrans avec une largeur maximale de 375px */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   /* Styles spécifiques pour la liste du menu du footer lorsque la largeur de l'écran est inférieure ou égale à 375px */
   .footer-menu {
     flex-direction: column; /* Change la direction en colonne */

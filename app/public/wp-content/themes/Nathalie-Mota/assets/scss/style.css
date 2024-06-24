@@ -62,7 +62,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   font-size: 16px;
   font-family: "space_monoregular", monospace;
   border-top: 1px solid black;
@@ -98,7 +98,7 @@ footer {
 }
 
 /* Media query pour les écrans avec une largeur maximale de 375px */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   /* Styles spécifiques pour la liste du menu du footer lorsque la largeur de l'écran est inférieure ou égale à 375px */
   .footer-menu {
     flex-direction: column; /* Change la direction en colonne */
@@ -122,7 +122,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   box-shadow: 0px 4px 14px 10px rgba(0, 0, 0, 0.03);
 }
 
@@ -134,7 +134,7 @@ footer {
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  padding: 30px 0;
+  padding: 30px 30px;
 }
 
 /* Styles pour le menu burger (initialement caché) */
@@ -180,6 +180,11 @@ footer {
 /* Styles pour le logo */
 .logo {
   margin-left: 20px;
+}
+@media screen and (max-width: 300px) {
+  .logo {
+    margin-left: -34px;
+  }
 }
 
 /* Media query pour les écrans de moins de 600px */
@@ -261,15 +266,15 @@ footer {
     color: #fff !important;
   }
 }
-div#wpcf7-f31-o1 {
-  height: 83%;
+div#wpcf7-f29-o1 {
+  height: 74%;
+  width: 51%;
 }
 
 /* Styles pour le formulaire de contact */
 .form-contact {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .form-contact > p {
   margin: 0;
@@ -291,7 +296,7 @@ div#wpcf7-f31-o1 {
 
 /* Styles spécifiques pour la zone de texte */
 .custom-textarea-class {
-  height: 180px;
+  height: 140px;
 }
 
 /* Styles pour l'étiquette personnalisée */
@@ -307,10 +312,13 @@ div#wpcf7-f31-o1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "PoppinsMedium";
+  font-size: 12px;
   background: #d8d8d8;
   height: 50px;
-  width: 275px;
+  width: 102%;
   border: 1px solid #b8bbc2;
+  margin-top: 4%;
 }
 
 /* Styles de l'overlay de la fenêtre modale */
@@ -336,13 +344,18 @@ div#wpcf7-f31-o1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 512px;
+  max-width: 30%;
   border: 2px solid black;
   background: white;
-  padding: 8px 40px 40px 40px;
-  height: 80%;
+  padding: 8px 40px 75px 40px;
+  height: 81%;
   border-radius: 8px;
   overflow: hidden;
+  margin-bottom: 1%;
+}
+.popup-contact img {
+  margin-top: -27px;
+  width: 121%;
 }
 
 /* Media query pour les écrans de petite taille */
@@ -354,7 +367,7 @@ div#wpcf7-f31-o1 {
 }
 /* Styles pour l'icône du menu burger */
 .burgerMenu {
-  margin-right: 20px;
+  margin-right: -7%;
   width: 30px;
   height: 20px;
   flex-direction: column;
@@ -711,7 +724,7 @@ body {
   }
 }
 .detailPhoto .photo-info {
-  width: 50%;
+  width: 52%;
   text-align: left;
   position: relative;
   padding-bottom: 40px;
@@ -719,7 +732,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0px;
 }
 .detailPhoto .photo-info::before {
   content: "";
@@ -916,7 +929,7 @@ body {
 }
 
 /* Style pour le message "Cette photo vous intéresse ?" */
-.interesser {
+.interessé {
   font-family: "PoppinsRegular";
   font-size: 14px;
   text-align: center;
@@ -963,6 +976,51 @@ body {
     left: 10px;
     position: relative;
   }
+}
+
+/* Styles for the banner section */
+.banner {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* Styles for the background image within the banner */
+}
+@media screen and (max-width: 770px) {
+  .banner {
+    height: 250px;
+  }
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 3px;
+}
+
+/* Styles for the heading element */
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 85%;
+  height: 10%;
+  font-family: "space_monobold_italic", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 6vw;
+  line-height: 10vh;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 3px #ffffff;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
 }
 
 /* Styles du bloc de catalogue */
@@ -1127,8 +1185,8 @@ body {
 
 /* Styles for the lightbox image */
 .lightboxImage {
-  width: 564px;
-  height: 495px;
+  width: 100%;
+  height: 98%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1159,8 +1217,8 @@ body {
   position: absolute;
   text-transform: uppercase;
   z-index: 1;
-  bottom: 110px;
-  left: 482px;
+  bottom: 1%;
+  left: 352px;
   color: #fff;
   width: 170px;
   height: 21px;
@@ -1217,8 +1275,8 @@ body {
   position: absolute;
   text-transform: uppercase;
   z-index: 1;
-  bottom: 110px;
-  right: 482px;
+  bottom: 1%;
+  right: 353px;
   color: #fff;
 }
 @media screen and (min-width: 250px) and (max-width: 350px) {
@@ -1290,5 +1348,161 @@ body {
 @media screen and (max-width: 1140px) {
   .lightbox-content {
     width: 70%;
+  }
+}
+
+.filtre {
+  margin-bottom: 40px;
+}
+
+.custom-select {
+  width: 260px;
+  height: 43px;
+  border: 1.3px solid #b8bbc2 !important;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+/* Style pour le conteneur de chaque paire label/select */
+.taxonomy-container {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 770px) {
+  .taxonomy-container {
+    width: 100%;
+  }
+}
+
+/* Styles pour le conteneur #filtrePhoto */
+#filtrePhoto {
+  padding-top: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+@media screen and (max-width: 830px) {
+  #filtrePhoto {
+    width: 260px;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 830px) and (max-width: 1140px) {
+  #filtrePhoto {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 340px) {
+  #filtrePhoto {
+    margin-bottom: 50px;
+  }
+}
+
+/* Styles pour la section gauche contenant 'Catégorie' et 'Format' */
+.left-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 830px) {
+  .left-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+  }
+}
+
+/* Styles pour la section droite contenant 'Trier par' */
+.right-section {
+  align-items: flex-end;
+}
+
+/* Styles spécifiques pour le sélecteur 'Trier par' */
+#annees {
+  margin-left: auto;
+}
+
+/* Masque le champ de recherche dans le menu déroulant de Select2 */
+.select2-dropdown .select2-search--dropdown .select2-search__field {
+  display: none;
+}
+
+/* Styles pour les options sélectionnées ou survolées dans le menu déroulant */
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[data-selected=true],
+.select2-container--default .select2-results__option--highlighted[aria-selected]:hover,
+.select2-container--default .select2-results__option--highlighted[data-selected]:hover,
+.select2-container--default .select2-results__option--highlighted[aria-selected]:focus,
+.select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option--highlighted[data-selected]:focus {
+  background-color: #e00000;
+  color: #fff;
+}
+
+/* Styles pour les options survolées ou sélectionnées dans le menu déroulant */
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option--highlighted[data-selected] {
+  background-color: #fe5858;
+  color: #fff;
+}
+
+/* Styles par défaut pour les options survolées dans le menu déroulant */
+.select2-results__option--highlighted {
+  background-color: #fe5858 !important;
+  color: #fff !important;
+}
+
+/* Styles par défaut pour la container de Select2 */
+.select2-container--default {
+  font-family: "poppinsregular";
+}
+
+.select2-search--dropdown {
+  padding: 20px !important;
+}
+
+/* Styles pour la sélection unique de Select2 */
+.select2-container--default .select2-selection--single {
+  width: 260px !important;
+  height: 43px !important;
+  border: 1.3px solid #b8bbc2 !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  text-transform: uppercase;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  width: 35px !important;
+  top: 8px !important;
+}
+
+/* Styles pour la largeur de la container Select2 */
+.select2-container {
+  width: 100% !important;
+}
+
+/* Styles pour la première option dans le menu déroulant */
+.select2-container--default .select2-results__option:not(:first-child)[aria-selected=true] {
+  background-color: #e00000 !important;
+  color: #fff !important;
+}
+
+/* Styles pour la première option dans le menu déroulant */
+.select2-container--default .select2-results__option:first-child {
+  background-color: #ffd6d6 !important;
+  color: #000 !important;
+}
+
+/* Styles pour les écrans de taille maximale de 768px */
+@media screen and (max-width: 768px) {
+  .select2-container--default .select2-selection--single {
+    width: 100% !important;
+    margin-bottom: 5px;
   }
 }/*# sourceMappingURL=style.css.map */

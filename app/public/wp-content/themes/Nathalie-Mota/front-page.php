@@ -1,5 +1,15 @@
 <?php get_header(); ?>
-<img src="<?php echo get_template_directory_uri() . '/assets/images/Header.png'; ?>" alt="contact">
 
+<section>
+    <?php get_template_part('template-parts/banner'); ?>
+</section>
+
+<section class="filtre">
+    <?php get_template_part('template-parts/filtre'); ?>
+</section>
+
+<section id="containerPhoto" class="blocCatalogue">
+    <?php get_template_part('template-parts/section-photo'); ?>
+</section>
 
 <?php get_footer(); ?>
