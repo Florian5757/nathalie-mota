@@ -92,7 +92,7 @@ function load_more_photos()
 	// Arguments de la requête pour récupérer les photos
 	$args = array(
 		'post_type'      => 'photo',     // Type de publication : photo
-		'posts_per_page' => 8,          // Nombre de photos par page (-1 pour toutes)
+		'posts_per_page' => 8,          // Nombre de photos par page 
 		'order'          => 'ASC',       // Ordre ascendant
 		'paged'          => $page,       // Numéro de page
 	);
