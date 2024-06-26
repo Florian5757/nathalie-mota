@@ -20,7 +20,7 @@ $categorie_name = $categories[0]->name; // On suppose qu'il y a au moins une cat
     <div class="overlay">
 
         <!-- Afficher le titre de la photo -->
-        <h2><?php echo esc_html($photo_titre); ?></h2>
+        <h2><?php echo esc_html($reference); ?></h2>
 
         <!-- Afficher le nom de la catégorie -->
         <h3><?php echo esc_html($categorie_name); ?></h3>
